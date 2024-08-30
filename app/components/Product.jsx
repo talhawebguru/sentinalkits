@@ -20,8 +20,9 @@ const Product = () => {
               </form>
             </div>
           </div>
-           <ProductData gridSizeL={4} gridSizeM={3} gridSizeS={2}  initialLimit={8} mobileLimit={4} selectedCategory="All Products" />
-          
+          <div className="grid gap-6 mt-14 xl:gap-10 xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1">
+           <ProductData  initialLimit={8} mobileLimit={4}  selectedCategory="All Products" />
+           </div>
         </div>
       </div>
     </>
