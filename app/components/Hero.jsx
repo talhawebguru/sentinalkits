@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <>
       <div className="min-w-full min-h-[680px]  xl:min-h-[100vh] 2xl:min-h-[84.5vh] overflow-hidden mt-5 relative flex justify-center ">
-        <video className="absolute " preload="auto" loop muted autoPlay>
+        <video className="absolute  " preload="auto" loop muted autoPlay>
           <source src="../video/hero.mp4"  type="video/mp4" />
           Your browser does not support the video tag.
         </video>

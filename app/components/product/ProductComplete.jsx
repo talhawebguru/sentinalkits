@@ -38,7 +38,7 @@ const ProductComplete = () => {
           </div>
         </div>
         <div className="xl:w-[70%] md:w-[74%] w-full">
-          <ProductData gridSizeL={3} gridSizeM={2} gridSizeS={2} limit={12}  selectedCategory={selectedCategory}/>
+          <ProductData gridSizeL={3} gridSizeM={2} gridSizeS={2} mobileLimit={8} initialLimit={12}  selectedCategory={selectedCategory}/>
           <div className="flex gap-2 justify-center lg:mt-16 mt-5 lg:mb-20 mb-5 ">
             <div className="w-10 h-10 bg-white shadow flex justify-center items-center rotate-90">
               <Image src={ArrowDown} />
