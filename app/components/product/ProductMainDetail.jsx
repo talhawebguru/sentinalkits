@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Product1 from "@/public/images/product1.svg";
+import Product1 from "@/public/images/product1.jpg";
 // import Product2 from "@/public/images/oneCostomy1.svg";
 import TabsProduct from "./TabsProduct";
 

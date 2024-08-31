@@ -6,9 +6,9 @@ import AboutUS from "@/public/images/aboutUs.svg";
 const AboutUs = () => {
   return (
     <>
-      <div className="flex md:justify-between md:gap-5  flex-wrap md:flex-nowrap md:mt-32 mt-14   2xl:max-w-[1440px] 2xl:mx-auto xl:px-[90px] lg:px-[40px] px-5">
+      <div className="flex md:justify-between md:gap-5  flex-wrap md:flex-nowrap md:mt-32 mt-14 xs:mt-0   2xl:max-w-[1440px] 2xl:mx-auto xl:px-[90px] lg:px-[40px] px-5">
         <div className="md:w-[50%]">
-          <h1 className="text-[#0e0e0e] text-[42px] font-normal font-nohemi capitalize mt-24 ">
+          <h1 className="text-[#0e0e0e] text-[42px] font-normal font-nohemi capitalize mt-24 xs:mt-14 ">
             About Company
           </h1>
           <p className="text-[#0e0e0e] text-base font-normal font-primary mt-5">
@@ -26,7 +26,7 @@ const AboutUs = () => {
             Learn More <Image src={RightArrow} alt="Right Arrow" />
           </div>
         </div>
-        <div className="h-[590px] md:w-[50%] mt-10 md:mt-0 flex justify-end">
+        <div className="h-[590px] md:w-[50%] mt-10 xs:mt-6 xs:h-auto md:mt-0 flex justify-end">
           <Image src={AboutUS} alt="About Us" className="" />
         </div>
       </div>

@@ -4,8 +4,8 @@ import ProductData from "./ProductData";
 const Product = () => {
   return (
     <>
-      <div className="bg-light-gray mt-28">
-        <div className=" pt-36 pb-28 xl:px-[90px] lg:px-[40px] px-5 2xl:max-w-[1440px] 2xl:mx-auto 2xl:px-0">
+      <div className="bg-light-gray mt-28 xs:mt-1">
+        <div className=" pt-36 xs:pt-20 pb-28 xl:px-[90px] lg:px-[40px] px-5 2xl:max-w-[1440px] 2xl:mx-auto 2xl:px-0">
           <div className="flex justify-between items-center">
             <h2 className="text-[#0e0e0e] text-[42px] font-normal font-nohemi capitalize">
               Our Products

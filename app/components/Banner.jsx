@@ -6,7 +6,7 @@ import RightArrow from '@/public/images/rightArrowP.svg'
 const Banner = () => {
   return (
     <>
-    <div className='bg-CTA bg-no-repeat bg-cover bg-center  mt-32 xl:mx-[90px] lg:px-[40px] px-5 flex flex-wrap md:flex-nowrap pb-20 md:pb-0 2xl:max-w-[1440px] 2xl:mx-auto'>
+    <div className='bg-CTA bg-no-repeat bg-cover bg-center  mt-32 xs:mt-10 xl:mx-[90px] lg:px-[40px] px-5 flex flex-wrap md:flex-nowrap pb-20 md:pb-0 2xl:max-w-[1440px] 2xl:mx-auto'>
         <div className='lg:w-[50%] hidden md:block'><Image src={BannerImage} alt='CTA Banner Image' className='h-[100%]'/></div>
         <div className='mt-20'>
             <h2 className=" text-white text-[42px] font-normal font-arial leading-[47.88px]">Enjoy up to 10% off!</h2>

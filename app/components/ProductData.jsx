@@ -196,12 +196,14 @@ const ProductData = ({
             className="bg-white shadow-lg  flex flex-col  pb-4  justify-center px-5"
             key={index}
           >
+          <Link href='/product/singleP'>
             <Image
               src={item.url}
               alt={item.name}
               className="mx-auto w-full h-64 "
              
             />
+            </Link>
             <div className="">
               <h2 className="text-[#0e0e0e] text-xl font-normal font-nohemi capitalize mt-4">
                 {item.name}

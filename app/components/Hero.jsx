@@ -6,13 +6,13 @@ import RightArrow from "@/public/images/rightArrow.svg";
 const Hero = () => {
   return (
     <>
-      <div className="min-w-full min-h-[680px]  xl:min-h-[100vh] 2xl:min-h-[84.5vh] overflow-hidden mt-5 relative flex justify-center ">
-        <video className="absolute  " preload="auto" loop muted autoPlay>
+      <div className="min-w-full min-h-[680px] xs:bg-primary  xl:min-h-[100vh] 2xl:min-h-[84.5vh] overflow-hidden mt-5 relative flex justify-center ">
+        <video className="absolute" preload="auto" loop muted autoPlay>
           <source src="../video/hero.mp4"  type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <div className="flex flex-col items-center justify-center absolute">
-          <div className="text-center xl:mt-32 2xl:mt-48">
+        <div className="flex flex-col items-center justify-center absolute xl:mt-28 lg:mt-20 mt-14  2xl:mt-48">
+          <div className="text-center ">
             <span className="text-white text-[56px] font-normal font-nohemi capitalize">
               We do Care for your
               <br />
