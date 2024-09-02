@@ -45,14 +45,14 @@ const ProductData = ({
     <>
         {displayedProducts.map((item, index) => (
           <div
-            className="bg-white shadow-lg  flex flex-col  pb-4  justify-center px-5"
+            className="bg-white shadow-xl   hover:shadow-2xl  flex flex-col  pb-4  justify-center px-5"
             key={index}
           >
           <Link  href={`/product/${item.name.toLowerCase().replace(/ /g, '-')}`}>
             <Image
               src={item.url}
               alt={item.name}
-              className="mx-auto w-full h-64 "
+              className="mx-auto w-full h-64  "
              
             />
             </Link>
