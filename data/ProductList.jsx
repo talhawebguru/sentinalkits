@@ -3,7 +3,7 @@ import Product2 from "@/public/images/product2.jpg";
 import Product3 from "@/public/images/product3.jpg";
 import Product4 from "@/public/images/product4.jpg";
 import Product5 from "@/public/images/product5.jpg";
-import Product6 from "@/public/images/product6.jpg";
+import Product6 from "@/public/images/product6.png";
 import Product7 from "@/public/images/product7.jpg";
 import Product8 from "@/public/images/product8.jpg";
 import Product9 from "@/public/images/product9.jpg";
