@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="/favicon-16x16.png"
+          href="/favicon-16x16.svg"
         />
         <link rel="manifest" href="/site.webmanifest" />
       </head>
