@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import Product1 from "@/public/images/product1.jpg";
-// import Product2 from "@/public/images/oneCostomy1.svg";
 import TabsProduct from "./TabsProduct";
 
 const ProductMainDetail = (props) => {
@@ -16,6 +15,7 @@ const ProductMainDetail = (props) => {
             <h2 className="text-divi-gray text-[28px] font-medium font-primary leading-[33.60px] mt-5">
               One piece closed Ostomy bag (Single side non-woven fabric, EVOH,
               Medical Hydrocolloid)
+              
             </h2>
             <h2 className="text-[#adadad] text-[13px] font-normal font-primary leading-tight mt-3">
               Max Cut Skin Barrier Dia:{" "}

@@ -8,7 +8,7 @@ const BackButton = () => {
     <>
     <div className="xl:px-[90px]  2xl:max-w-[1440px] 2xl:mx-auto 2xl:px-0 lg:px-[40px] px-5 mt-10 flex  justify-between items-center flex-wrap xs:mb-5">
        <Link href="/product" className="inline-flex items-center gap-3">
-         <Image src={ArrowLeft} />
+         <Image src={ArrowLeft} alt='left arrow'/>
          <span className="text-neutral-800 text-base font-medium font-['Poppins'] leading-normal">
            Back
          </span>
