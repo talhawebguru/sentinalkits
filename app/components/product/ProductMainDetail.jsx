@@ -5,6 +5,8 @@ import TabsProduct from "./TabsProduct";
 import { usePathname, useSearchParams } from 'next/navigation'
 import productData from '@/data/ProductList';
 
+
+
 const ProductMainDetail = (props) => {
 
   const pathname = usePathname()

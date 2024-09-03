@@ -1,18 +1,17 @@
 import React from 'react'
 import PageNameBanner from '../components/PageNameBanner'
-// import AboutHeroImg from '@/public/images/aboutHero.svg';
 import TouchWithUs from '../components/contact/TouchWithUs';
-// import LocationMap from '../components/contact/LocationMap';
-import PageBannerImg from "@/public/images/productBannerImg.svg"
+import ContactBannerImg from "@/public/images/contactBannerImg.svg"
+import LocationMap from '../components/contact/LocationMap';
 
 
 
 const page = () => {
   return (
     <>
-    <PageNameBanner title="" image={PageBannerImg}/>
+    <PageNameBanner title="" image={ContactBannerImg}/>
+    <LocationMap/>
     <TouchWithUs/>
-    {/* <LocationMap/> */}
     </>
   )
 }

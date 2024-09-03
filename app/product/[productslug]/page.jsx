@@ -15,12 +15,6 @@ import productData from '@/data/ProductList';
 
 
 export default  function ProductDetails(){
-    // const pathname = usePathname()
-    // console.log(pathname)
-    // const product= productData.find((p)=>'/product/'+p.name.toLowerCase().replace(/ /g, '-')== pathname)
-    // console.log(product)
-    
-
     const [isPopupOpen, setIsPopupOpen] = useState(false);
     
     return (
