@@ -69,7 +69,7 @@ const ProductOverview = () => {
                   consumable products across all GCC countries.{" "}
                 </p>
                 <div className="px-[25px] mt-12 mb-10 lg:mb-0  py-3 bg-custom-gradient justify-center items-center gap-4 inline-flex text-white text-base font-medium font-primary">
-                  Learn More <Image src={RightArrow} alt="Right Arrow" />
+                  Buy Now <Image src={RightArrow} alt="Right Arrow" />
                 </div>
               </div>
             </div>
@@ -101,7 +101,7 @@ const ProductOverview = () => {
                   consumable products across all GCC countries.{" "}
                 </p>
                 <div className="px-[25px] mt-12 mb-10 lg:mb-0  py-3 bg-custom-gradient justify-center items-center gap-4 inline-flex text-white text-base font-medium font-primary">
-                  Learn More <Image src={RightArrow} alt="Right Arrow" />
+                  Buy Now <Image src={RightArrow} alt="Right Arrow" />
                 </div>
               </div>
             </div>
@@ -133,7 +133,7 @@ const ProductOverview = () => {
                   consumable products across all GCC countries.{" "}
                 </p>
                 <div className="px-[25px] mt-12 mb-10 lg:mb-0  py-3 bg-custom-gradient justify-center items-center gap-4 inline-flex text-white text-base font-medium font-primary">
-                  Learn More <Image src={RightArrow} alt="Right Arrow" />
+                  Buy Now <Image src={RightArrow} alt="Right Arrow" />
                 </div>
               </div>
             </div>

@@ -23,23 +23,20 @@ const Footer = () => {
                 </p>
               </div>
 
-              <div className="mt-11">
-                <h2 className=" text-light-black text-xl font-normal font-arial">
-                  Social Links
-                </h2>
-                <div className="mt-5">
+              <div className="mt-5">
+               
                   <Image src={SocialIcons} alt="social icons" />
-                </div>
+                
               </div>
             </div>
 
             {/* Col 2 */}
             <div>
               <div className="flex flex-col sm:ml-24 gap-5">
-                <h3 className="text-light-black text-xl font-normal font-arial">
+                <h3 className="text-light-black text-xl font-normal font-nohemi">
                   Quick Links
                 </h3>
-                <ul className="flex flex-col  gap-5 text-neutral-light-gray text-base font-normal font-secondary">
+                <ul className="flex flex-col  gap-5 text-neutral-light-gray text-base font-normal font-primary">
                   <li>
                     <Link href="/">Home</Link>
                   </li>
@@ -58,7 +55,7 @@ const Footer = () => {
             {/* Col 3 */}
             <div>
               <div className="flex flex-col gap-5">
-                <h3 className="text-light-black text-xl font-normal font-arial">
+                <h3 className="text-light-black text-xl font-normal font-nohemi">
                   News Letter
                 </h3>
                 <p className="text-neutral-light-gray text-base font-normal font-primary leading-normal">
@@ -68,11 +65,11 @@ const Footer = () => {
                   <form className="flex">
                     <input
                       type="text"
-                      className="w-full h-12 px-[22px] py-3.5 bg-white shadow justify-start items-start gap-2.5 inline-flex text-neutral-light text-[13px] font-normal font-secondary leading-tight"
+                      className="w-full h-12 px-[22px] py-3.5 bg-white shadow justify-start items-start gap-2.5 inline-flex text-neutral-light text-[13px] font-normal font-primary leading-tight"
                       placeholder="Enter your Email"
                     />
-                    <button className="w-[134px] h-12 bg-custom-gradient text-white text-base font-normal font-arial ml-2">
-                      Shop Now
+                    <button className="w-[134px] h-12 bg-custom-gradient text-white text-base font-normal font-nohemi ml-2">
+                    Subscribe
                     </button>
                   </form>
                 </div>

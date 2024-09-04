@@ -27,7 +27,7 @@ const Hero = () => {
             medical procedures.
           </p>
           <div className="px-[25px] mt-8 py-3 bg-custom-gradient justify-center items-center gap-4 inline-flex text-white text-base font-medium font-primary">
-            Get this from Jurhy <Image src={RightArrow} alt="Right Arrow" />
+          Request for quote <Image src={RightArrow} alt="Right Arrow" />
           </div>
         </div>
       </div>
