@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Product1 from "@/public/images/product1.jpg";
 import TabsProduct from "./TabsProduct";
 import { usePathname, useSearchParams } from 'next/navigation'
 import productData from '@/data/ProductList';

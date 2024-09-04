@@ -5,6 +5,10 @@ import Mission from '../components/about/Mission'
 import Banner from '../components/Banner'
 import AboutTitle from '../components/about/AboutTitle'
 
+export const metadata = {
+  title: "SentinalKits /About",
+  description: "Sentinal kits Medical Care Products",
+};
 const page = () => {
   return (
     <>

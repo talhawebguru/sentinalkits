@@ -8,9 +8,6 @@ import ProductMainDetail from '@/app/components/product/ProductMainDetail';
 import RelatedProducts from '@/app/components/product/RelatedProducts';
 import Popup from '@/app/components/product/Popup';
 import PageBannerImg from '@/public/images/productBannerImg.svg';
-import { useEffect } from 'react'
-import { usePathname, useSearchParams } from 'next/navigation'
-import productData from '@/data/ProductList';
 
 
 
@@ -28,23 +25,3 @@ export default  function ProductDetails(){
         </>
     );
 };
-
-
-// 'use client'
- 
-// import { useEffect } from 'react'
-// import { usePathname, useSearchParams } from 'next/navigation'
- 
-// export default function NavigationEvents() {
-//   const pathname = usePathname()
-//   const searchParams = useSearchParams()
- 
-//   useEffect(() => {
-//     const url = `${pathname}?${searchParams}`
-//     console.log(url)
-//     // You can now use the current URL
-//     // ...
-//   }, [pathname, searchParams])
- 
-// }
-
