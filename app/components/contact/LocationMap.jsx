@@ -4,8 +4,8 @@ const LocationMap = () => {
   return (
     <>
       <div>
-        <h2 className="text-center text-neutral-950 text-5xl font-normal font-nohemi mt-32">Get in touch With Us!</h2>
-        <p className="text-center text-neutral-950 text-base font-normal font-primary leading-normal lg:w-[30%] sm:w-[65%] xs:w-[80%] mx-auto mt-3">
+        <h2 className="text-center text-neutral-950 text-5xl font-normal font-nohemi mt-32 xs:px-5">Get in touch With Us!</h2>
+        <p className="text-center text-neutral-950 text-base font-normal font-primary leading-normal lg:w-[30%] sm:w-[65%] xs:w-[80%] mx-auto mt-3 xs:px-5">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore{" "}
         </p>
