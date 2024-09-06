@@ -89,8 +89,8 @@ const Header = () => {
         {/* Mobile Menu */}
         {isOpen && (
           <div
-            className={`lg:hidden bg-white flex items-center flex-col   transition-all duration-700 ease-in-out  ${
-              isAnimatingOut ? "animationMoveOut " : "animationMove h-[84.9vh]"
+            className={`lg:hidden absolute left-0 w-full z-20 bg-white flex items-center flex-col   transition-all duration-700 ease-in-out  ${
+              isAnimatingOut ? "animationMoveOut " : "animationMove h-[86vh]"
             }`}
           >
             <ul className="flex items-center w-full flex-col gap-8 pt-4 text-black text-base font-normal font-secondary leading-tight">
@@ -125,7 +125,7 @@ const Header = () => {
             <div className="px-[25px] mt-12 py-3 bg-custom-gradient justify-center items-center gap-4 inline-flex text-white text-base font-medium font-primary">
               Request for quote <Image src={RightArrow} alt="Right Arrow" />
             </div>
-            <div className="flex gap-2 mt-5">
+            <div className="flex gap-2 mt-10 mb-24">
             <SocialIcons icon={<FaFacebookF />} />
             <SocialIcons icon={<FaTwitter />} />
             <SocialIcons icon={<AiFillInstagram />} />
