@@ -5,7 +5,7 @@ import Logo from "@/public/images/logo.svg";
 import MenuOpen from "@/public/images/menuOpen.svg";
 import MenuClose from "@/public/images/menuClose.svg";
 import RightArrow from "@/public/images/rightArrow.svg";
-import SocialIcons from "./SocialIcons";
+import SocialIcons from "./common/SocialIcons";
 import Link from "next/link";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";

@@ -1,8 +1,8 @@
 "use client"
 import React from 'react';
 import { useState } from 'react';
-import PageNameBanner from '../../components/PageNameBanner';
-import Banner from '../../components/Banner';
+import PageNameBanner from '../../components/common/PageNameBanner';
+import Banner from '../../components/common/Banner';
 import BackButton from '@/app/components/product/BackButton';
 import ProductMainDetail from '@/app/components/product/ProductMainDetail';
 import RelatedProducts from '@/app/components/product/RelatedProducts';

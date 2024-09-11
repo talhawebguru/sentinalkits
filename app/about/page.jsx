@@ -1,8 +1,8 @@
 import React from 'react'
-import AboutUs from '../components/AboutUs'
+import AboutUs from '../components/common/AboutUs'
 import Vision from '../components/about/Vision'
 import Mission from '../components/about/Mission'
-import Banner from '../components/Banner'
+import Banner from '../components/common/Banner'
 import AboutTitle from '../components/about/AboutTitle'
 
 export const metadata = {

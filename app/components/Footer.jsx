@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Logo from "@/public/images/logo.svg";
 import Link from "next/link";
-import SocialIcons from "./SocialIcons";
+import SocialIcons from "./common/SocialIcons";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";

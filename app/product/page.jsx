@@ -1,6 +1,6 @@
 import React from 'react'
-import Banner from '../components/Banner'
-import PageNameBanner from '../components/PageNameBanner'
+import Banner from '../components/common/Banner'
+import PageNameBanner from '../components/common/PageNameBanner'
 import PageBannerImg from "@/public/images/productBannerImg.svg"
 import ProductComplete from '../components/product/ProductComplete'
 

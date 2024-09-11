@@ -2,9 +2,8 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import AddCart from "@/public/images/addCartIcon.svg";
-import AddSave from "@/public/images/addSaveIcon.svg";
 import productData from "@/data/ProductList";
+import ratingStar from "@/public/images/ratingStar.svg";
 
 
 const ProductData = ({
@@ -57,19 +56,22 @@ const ProductData = ({
             />
             </Link>
             <div className="">
-              <h2 className="text-[#0e0e0e] text-xl font-normal font-nohemi capitalize mt-4">
+              <h2 className="text-[#0e0e0e] text-base font-normal font-primary capitalize mt-4 h-12">
                 {item.name}
               </h2>
-              <div className="mt-3 flex justify-between items-center">
-                <div>
-                  <p className="text-[#0F0F0F33] text-base font-normal font-nohemi capitalize line-through">45</p>
-                  <p className="text-[#0F0F0F] text-2xl font-normal font-nohemi capitalize">32,-</p>
-                </div>
-                <div className="flex gap-1">
-                    <Image src={AddCart} alt="Add Cart"/>
-                    <Image src={AddSave} alt="Add Save"/>
-                </div>
+              <div className="mt-1">
+                <Image src={ratingStar} alt="rating" />
               </div>
+              <div className="text-[#0e0e0e] text-base font-normal font-primary mt-3">
+                <p>REF CHK-007</p>
+              </div>
+              <div className=" mt-5 rounded-lg h-[42px] flex justify-center items-center bg-custom-gradient text-white text-base font-normal font-primary">
+               <Link href={`/product/${item.name.toLowerCase().replace(/ /g, '-')}`}>
+               <p>View Detail</p>
+               </Link>
+                
+              </div>
+            
             </div>
           </div>
         ))}
