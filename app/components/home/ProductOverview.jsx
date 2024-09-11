@@ -6,9 +6,9 @@ import Image from "next/image";
 import "swiper/css";
 import "swiper/css/navigation";
 import RightArrow from "@/public/images/rightArrow.svg";
-import Product1 from "@/public/images/product5.jpg";
-import Product2 from "@/public/images/product7.jpg";
-import Product3 from "@/public/images/product8.jpg";
+import Product1 from "@/public/images/product5.png";
+import Product2 from "@/public/images/product7.png";
+import Product3 from "@/public/images/product8.png";
 import LeftSliderArrow from "@/public/images/leftSliderArrow.svg";
 import RightSliderArrow from "@/public/images/rightSliderArrow.svg";
 
