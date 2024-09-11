@@ -12,7 +12,7 @@ export const metadata = {
 const page = () => {
   return (
     <>
-        <PageNameBanner title="" image={PageBannerImg}/>
+        <PageNameBanner title="Our Product" image={PageBannerImg}/>
         <ProductComplete/>
         <Banner/>
     </>
