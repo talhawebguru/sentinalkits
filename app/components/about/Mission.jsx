@@ -24,7 +24,7 @@ const Mission = () => {
       
       </div>
       <div className="h-[590px] md:w-[50%] mt-10 md:mt-0 flex justify-end">
-        <Image src={MissionImg} alt="About Us" className="" />
+        <Image src={MissionImg} alt="About Us"  />
       </div>
     </div>
   </>

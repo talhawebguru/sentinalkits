@@ -33,7 +33,7 @@ const ProductComplete = () => {
                 Categories
               </h2>
               <div>
-                <Image src={ArrowDown} />
+                <Image src={ArrowDown} alt="Arrow down" />
               </div>
             </div>
             <div className="w-full h-[0px] border border-[#eae9e8] mt-6"></div>
@@ -48,7 +48,7 @@ const ProductComplete = () => {
           </div>
           <div className="flex gap-2 justify-center lg:mt-16 mt-5 lg:mb-20 mb-5 ">
             <div className="w-10 h-10 bg-white shadow flex justify-center items-center rotate-90">
-              <Image src={ArrowDown} />
+              <Image src={ArrowDown}  alt="Arrow down"/>
             </div>
             <div className="w-10 h-10  shadow flex justify-center items-center bg-primary text-[white] text-base font-normal font-primary leading-normal">
               1
@@ -63,7 +63,7 @@ const ProductComplete = () => {
               4
             </div>
             <div className="w-10 h-10 bg-white shadow flex justify-center items-center -rotate-90">
-              <Image src={ArrowDown} />
+              <Image src={ArrowDown}  alt="Arrow down"/>
             </div>
           </div>
         </div>

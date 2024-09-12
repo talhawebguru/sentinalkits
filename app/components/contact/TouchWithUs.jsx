@@ -66,7 +66,7 @@ const TouchWithUs = () => {
           </div>
           <div className="mt-8">
             <div className="flex items-center gap-3">
-              <Image src={EmailIcon} alt="Phone Icon" />
+              <Image src={EmailIcon} alt="Email Icon" />
               <p className=" text-white text-base font-normal font-nohemi uppercase leading-[17.60px]">Email</p>
             </div>
             <div className="ml-9 mt-2">
@@ -77,7 +77,7 @@ const TouchWithUs = () => {
           </div>
           <div className="mt-8">
             <div className="flex items-center gap-3">
-              <Image src={LocationIcon} alt="Phone Icon" />
+              <Image src={LocationIcon} alt="Location Icon" />
               <p className=" text-white text-base font-normal font-nohemi uppercase leading-[17.60px]">Location</p>
             </div>
             <div className="ml-9 mt-2">

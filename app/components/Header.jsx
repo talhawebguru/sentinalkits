@@ -76,9 +76,9 @@ const Header = () => {
             </div>
           </div>
           <div className="lg:hidden">
-            <button onClick={toggleMenu} className="">
+            <button onClick={toggleMenu} >
               {isOpen ? (
-                <Image src={MenuClose} alt="Menu Close Icon" className="" />
+                <Image src={MenuClose} alt="Menu Close Icon"  />
               ) : (
                 <Image src={MenuOpen} alt="Menu Open Icon" />
               )}
