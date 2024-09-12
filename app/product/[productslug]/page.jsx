@@ -16,7 +16,7 @@ export default  function ProductDetails(){
     
     return (
         <>  
-            <PageNameBanner title="" image={PageBannerImg} />
+            <PageNameBanner title="Our Product" image={PageBannerImg} />
             <BackButton />
             <ProductMainDetail openPop={setIsPopupOpen}   />
             <RelatedProducts />

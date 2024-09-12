@@ -6,10 +6,10 @@ const Vision = () => {
   return (
     <>
       <div className="flex md:justify-between md:gap-5  flex-wrap md:flex-nowrap md:mt-28   2xl:max-w-[1440px] 2xl:mx-auto xl:px-[90px] lg:px-[40px] px-5">
-      <div className="h-[590px] md:w-[50%] mt-10 md:mt-0 ">
+      <div className="h-[590px] md:w-[50%] mt-10 md:mt-0 order-1">
           <Image src={VisionImg} alt="About Us" className="" />
         </div>
-        <div className="md:w-[50%]">
+        <div className="md:w-[50%] md:order-2">
           <h1 className="text-[#0e0e0e] text-[42px] font-normal font-nohemi capitalize mt-24 ">
           Our Vision
           </h1>
